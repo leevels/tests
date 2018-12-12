@@ -1,8 +1,0 @@
-composer.lock
-/vendor/
-.DS_Store
-.php_cs.cache
-logs/
-node_modules/
-package-lock.json
-Router
