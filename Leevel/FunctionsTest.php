@@ -18,10 +18,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Tests\Bootstrap;
+namespace Leevel\Leevel;
 
 use Leevel as Leevels;
-use Leevel\Bootstrap\Project as Projects;
 use Leevel\Cache\Cache;
 use Leevel\Cache\ICache;
 use Leevel\Cache\IConnect as IConnectCache;
@@ -30,6 +29,7 @@ use Leevel\Di\IContainer;
 use Leevel\Encryption\IEncryption;
 use Leevel\I18n\II18n;
 use Leevel\Kernel\IProject;
+use Leevel\Leevel\Project as Projects;
 use Leevel\Log\ILog;
 use Leevel\Option\IOption;
 use Leevel\Router\IUrl;

@@ -18,14 +18,14 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Tests\Bootstrap;
+namespace Leevel\Leevel;
 
-use Leevel\Bootstrap\Project as Projects;
 use Leevel\Di\Container;
 use Leevel\Di\IContainer;
 use Leevel\Di\Provider;
 use Leevel\Filesystem\Fso;
 use Leevel\Http\IRequest;
+use Leevel\Leevel\Project as Projects;
 use Tests\TestCase;
 
 /**

@@ -18,13 +18,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Tests\Bootstrap;
+namespace Leevel\Leevel;
 
 use Error;
 use Exception;
-use Leevel\Bootstrap\Kernel;
-use Leevel\Bootstrap\Project as Projects;
-use Leevel\Bootstrap\Runtime;
 use Leevel\Http\ApiResponse;
 use Leevel\Http\IRequest;
 use Leevel\Http\IResponse;
@@ -33,6 +30,7 @@ use Leevel\Http\Response;
 use Leevel\Kernel\IKernel;
 use Leevel\Kernel\IProject;
 use Leevel\Kernel\IRuntime;
+use Leevel\Leevel\Project as Projects;
 use Leevel\Log\ILog;
 use Leevel\Option\IOption;
 use Leevel\Router\IRouter;

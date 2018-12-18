@@ -18,12 +18,12 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Tests\Bootstrap\Commands\Console;
+namespace Leevel\Leevel\Commands;
 
 use Leevel\Console\Command;
 
 /**
- * bar command.
+ * test command.
  *
  * @author Xiangmin Liu <635750556@qq.com>
  *
@@ -31,11 +31,11 @@ use Leevel\Console\Command;
  *
  * @version 1.0
  */
-class Bar extends Command
+class Test extends Command
 {
-    protected $name = 'console:bar';
+    protected $name = 'test';
 
-    protected $description = 'This is a foo command';
+    protected $description = 'This is a test command';
 
     protected $help = <<<'EOF'
 The <info>%command.name%</info> command to show how to make a command:
@@ -45,7 +45,7 @@ EOF;
 
     public function handle()
     {
-        $this->info('Hello my foo command.');
+        $this->info('Hello my test command.');
     }
 
     protected function getArguments()

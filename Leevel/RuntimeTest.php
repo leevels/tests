@@ -18,11 +18,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Tests\Bootstrap;
+namespace Leevel\Leevel;
 
 use Exception;
-use Leevel\Bootstrap\Project as Projects;
-use Leevel\Bootstrap\Runtime;
 use Leevel\Database\Ddd\EntityNotFoundException;
 use Leevel\Di\Container;
 use Leevel\Di\IContainer;
@@ -32,6 +30,7 @@ use Leevel\Http\Response;
 use Leevel\Kernel\InternalServerErrorHttpException;
 use Leevel\Kernel\MethodNotAllowedHttpException;
 use Leevel\Kernel\NotFoundHttpException;
+use Leevel\Leevel\Project as Projects;
 use Leevel\Log\ILog;
 use Leevel\Option\Option;
 use Tests\TestCase;

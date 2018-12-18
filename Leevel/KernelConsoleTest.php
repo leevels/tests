@@ -18,13 +18,12 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Tests\Bootstrap;
+namespace Leevel\Leevel;
 
-use Leevel\Bootstrap\KernelConsole;
-use Leevel\Bootstrap\Project as Projects;
 use Leevel\Console\Application;
 use Leevel\Kernel\IKernelConsole;
 use Leevel\Kernel\IProject;
+use Leevel\Leevel\Project as Projects;
 use Leevel\Option\IOption;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
